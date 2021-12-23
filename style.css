@@ -1,3 +1,10 @@
 body{
-    color:red;
+   background-color: rgb(251, 255, 24);
+   font-family: 'Lobster Two', cursive;
+   font-size:42px;
+   color:rgb(224, 21, 72);
+}
+
+.container{
+    border: 4px solid rgb(21, 59, 182);
 }
