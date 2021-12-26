@@ -5,9 +5,27 @@ body{
    color:rgb(224, 21, 72);
 }
 
-.container{
-    border: 4px solid rgb(21, 59, 182);
+div.container{
+    border: 14px solid rgb(250, 15, 160);
+    padding-bottom: 20px;
 }
-.p {
+p#greeting {
     font-family: 'lobster Two';
+    text-align: center;  
+    margin-bottom: 14px;
 }
+
+
+*{
+    box-sizing: border-box;
+}
+
+#snow{
+    margin-left: 500px;
+    padding-top: 20px;
+}
+
+#christmas{
+    margin-left: 500px;
+}
+
