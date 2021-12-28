@@ -18,10 +18,12 @@ body,
       -webkit-animation-iteration-count: infinite;
     }
 
-   /* background-color: rgb(251, 255, 24); */
-   font-family: 'Lobster Two', cursive;
-   font-size:42px;
-   color:rgb(224, 21, 72);
+  
+    background-color: black;
+    font-family: 'Lobster Two', cursive;
+    font-size: 42px;
+    color:rgb(224, 21, 72);
+  
 }
 
 div.container{
@@ -48,17 +50,3 @@ p#greeting {
     margin-left: 500px;
 }
 
-.neon {
-    position: relative;
-    overflow: hidden;
-    filter: brightness(200%)
-}
-.text {
-    color:rgb(143, 50, 22);
-    font-size: 100px;
-    font-weight: bold;
-    font-family: cursive;
-    text-transform: uppercase;
-    position: relative;
-    user-select: none;
-}
