@@ -1,5 +1,24 @@
-body{
-   background-color: rgb(251, 255, 24);
+body,
+.more-snow{
+    &;before,
+    &:after{
+      content: "";
+      position: fixed;
+      top: -3000%;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: rgba(black, 0.01);  
+      background-image: 
+      url(https://freepngimg.com/download/winter_snow/4-2-white-snow-png.png);
+      background-size: 30%;
+      -webkit-animation-name: MOVE-BG;
+      -webkit-animation-duration: 500s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+    }
+
+   /* background-color: rgb(251, 255, 24); */
    font-family: 'Lobster Two', cursive;
    font-size:42px;
    color:rgb(224, 21, 72);
@@ -29,3 +48,17 @@ p#greeting {
     margin-left: 500px;
 }
 
+.neon {
+    position: relative;
+    overflow: hidden;
+    filter: brightness(200%)
+}
+.text {
+    color:rgb(143, 50, 22);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: cursive;
+    text-transform: uppercase;
+    position: relative;
+    user-select: none;
+}
